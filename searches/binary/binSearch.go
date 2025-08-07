@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package binary
 
 func BinarySearch(arr []int, item int) int {
 	low := 0
@@ -19,7 +17,4 @@ func BinarySearch(arr []int, item int) int {
 		}
 	}
 	return -1
-}
-func main() {
-	fmt.Println(BinarySearch([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, -1))
 }
